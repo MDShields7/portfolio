@@ -482,6 +482,9 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid:hover {
+filter:grayscale(100%)
+}
 
 .img-thumbnail {
   padding: 0.25rem;
