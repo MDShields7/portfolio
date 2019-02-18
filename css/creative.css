@@ -15,14 +15,14 @@ body {
 }
 
 hr {
-  max-width: 50px;
+  max-width: 25px;
   border-width: 3px;
   border-color: rgb(0, 153, 199);
 }
 
 
 hr.light {
-  border-color: #fff;
+  border-color: rgb(70, 70, 70);
 }
 
 a {
@@ -61,7 +61,9 @@ h1 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-
+.text-bright {
+  color: rgba(255, 255, 255, 0.9);
+}
 section {
   padding: 8rem 0;
 }
