@@ -51,7 +51,7 @@ h1 {
 .photo {
   width: 150px;
   border-radius: 50%;
-  MARGIN: 10PX ;
+  margin: 10px;
 }
 
 .bg-primary {
