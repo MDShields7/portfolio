@@ -48,7 +48,11 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Yantramanav', sans-serif;
 }
-
+.photo {
+  width: 150px;
+  border-radius: 50%;
+  MARGIN: 10PX ;
+}
 
 .bg-primary {
   background-color: rgb(0, 153, 199) !important;
