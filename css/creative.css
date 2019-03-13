@@ -64,7 +64,7 @@ h1 {
   color: rgba(255, 255, 255, 0.9);
 }
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .section-heading {
@@ -233,6 +233,13 @@ header.masthead p {
 
 .service-box {
   max-width: 400px;
+}
+
+.service-box-2 {
+  max-width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio-box {
