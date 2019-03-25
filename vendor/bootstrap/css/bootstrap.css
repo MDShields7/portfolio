@@ -27,7 +27,7 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
+  --breakpoint-sm: 320px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
@@ -558,9 +558,9 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 540px;
+    max-width: 300px;
   }
 }
 
@@ -829,7 +829,7 @@ pre code {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -2229,7 +2229,7 @@ textarea.form-control {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .form-inline label {
     display: -ms-flexbox;
     display: flex;
@@ -4071,7 +4071,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4501,7 +4501,7 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -4532,7 +4532,7 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-group {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -4598,7 +4598,7 @@ input[type="button"].btn-block {
   margin-bottom: 0.75rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -4887,7 +4887,7 @@ input[type="button"].btn-block {
   border-radius: 0.3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
@@ -5492,7 +5492,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -6315,7 +6315,7 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .d-sm-none {
     display: none !important;
   }
@@ -6688,7 +6688,7 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .flex-sm-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -7256,7 +7256,7 @@ button.bg-dark:focus {
   float: none !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .float-sm-left {
     float: left !important;
   }
@@ -7746,7 +7746,7 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8776,7 +8776,7 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .text-sm-left {
     text-align: left !important;
   }

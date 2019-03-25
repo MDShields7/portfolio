@@ -237,6 +237,7 @@ header.masthead p {
 
 .service-box-2 {
   max-width: 400px;
+  min-height:140px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -270,6 +271,7 @@ header.masthead p {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align: center;
+  padding: 10px;
 }
 
 .portfolio-box
@@ -319,13 +321,13 @@ header.masthead p {
     .portfolio-box-caption
     .portfolio-box-caption-content
     .project-category {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
   .portfolio-box
     .portfolio-box-caption
     .portfolio-box-caption-content
     .project-name {
-    font-size: 24px;
+    font-size: 1rem;
   }
 }
 
@@ -340,6 +342,11 @@ header.masthead p {
 }
 .text-secondary {
   color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+}
+.text-skills {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem;
 }
 .text-proj{
   font-size: 36px;
