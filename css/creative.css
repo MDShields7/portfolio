@@ -305,7 +305,7 @@ header.masthead p {
 .portfolio-box:hover > .portfolio-box-img {
   /* filter:grayscale(100%); */
   background: white;
-  filter:opacity(30%);
+  filter:opacity(20%);
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -343,6 +343,17 @@ header.masthead p {
 .text-secondary {
   color: rgb(0, 0, 0) !important;
   font-size: 14px;
+}
+@media (max-width: 600px){
+  .project-category {
+    font-size: 11px;
+  }
+  .project-name {
+    font-size: 11px;
+  }
+  .text-secondary {
+    font-size: 10px;
+  }
 }
 .text-skills {
   color: rgb(0, 0, 0) !important;
